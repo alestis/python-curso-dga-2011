@@ -15,7 +15,7 @@ def PrintFeed(feed):
 client = gdata.docs.client.DocsClient(source='yourCo-yourAppName-v1')
 client.ssl = True  # Force all API requests through HTTPS
 client.http_client.debug = False  # Set to True for debugging HTTP requests
-client.ClientLogin('rengar666@gmail.com', '1maysun8', client.source);
+client.ClientLogin('rengar666@gmail.com', 'xxxxxxxx', client.source);
 
 # Create an empty document
 new_doc = client.Create(gdata.docs.data.DOCUMENT_LABEL, 'Documento - Curso Python')
